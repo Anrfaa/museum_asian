@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <title>My First Home Demo </title>
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            .about
+            {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .about-image
+            {
+                flex: 1;
+                margin-right: 40px;
+                overflow: hidden;
+            }
+
+            .about-image img
+            {
+                max-width: 100%;
+                height: 400px;
+                display: block;
+                transition: 0.5s ease;
+            }
+
+            .about-image hover img
+            {
+                transform: scale (1.2);
+            }
+
+            .about-content
+            {
+                flex: 1;
+            }
+
+            .about-content h2
+            {
+                font-size: 30px;
+                margin-bottom: 15px;
+                color: #FFF1C1;
+            }
+
+            .about-content p
+            {
+                font-size: 20px;
+                line-height: 1.5;
+                color: #FFF1C1;
+            }
+            .button
+            {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 20px;
+                font-weight: bold;
+                background: rgba(185, 185, 111, 0.89);
+                width: 160px;
+                padding: 20px;
+                text-align: center;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #543A14;
+                border-radius: 5px;
+                cursor: pointer;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+                -webkit-transition-duration: 0.3s;
+                transition-duration: 0.3s;
+                -webkit-transition-property: box-shadow,transform;
+                transition-property: box-shadow,transform;
+            }
+            .button:hover, .button:focus, .button:active
+            {
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+            .heading
+            {
+                width: 90%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                margin: 20px auto;
+            }
+
+            .heading h1
+            {
+                font-size: 60px;
+                color:#fffcb7;
+                margin-bottom: 25px;
+                position: relative;
+
+            }
+
+            .heading h1 ::after
+            {
+                position: absolute;
+                width: 100%;
+                height: 4px;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .heading p
+            {
+                font-size: 20px;
+                color: #FFF1C1;
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Embed the navbar using an iframe -->
+        <iframe src="components/navbar.html" width="100%" height="100px" frameborder="0"></iframe>
+
+        
+        <div class="heading">
+            <h1> About Us </h1>
+            <p> The Museum of Asian Art and various art galleries in Malaysia offer a rich collection of artworks that reflect the country’s diverse cultural heritage, as well as the broader art history of Asia.</p>
+        </div>
+        <div class="container">
+            <section class="about">
+                <div class="about-image">
+                    <img src="img/about/about.jpg">
+                </div>
+                <div class="about-content">
+                    <p> Malaysia, with its strategic position in Southeast Asia, serves as a cultural crossroads, and this is mirrored in the variety of art exhibitions and galleries that showcase works from across Asia, including traditional, modern, and contemporary pieces. In Malaysia, the Museum of Asian Art and various galleries serve as crucial cultural institutions that preserve and promote the rich artistic traditions of Asia. They offer a window into the diverse and evolving art practices of the region, allowing both locals and international visitors to explore the dynamic history and contemporary expressions of Asian culture. Whether through the works of ancient civilizations or modern artistic innovations, Malaysia’s art institutions provide valuable platforms for understanding the interconnectedness of Asian art across time and space. </p>
+                </div>
+            </section>
+            
+            <div class="about-button"> 
+                <a href="about/history.html" class="button">History</a>
+                <a href="about/vm.html" class="button">Vission & Mission</a>
+                <a href="about/team.html" class="button">Team</a>
+                <a href="about/facilities.html" class="button">Facilities</a>
+            </div>
+        </div>
+        
+        
+        <!-- Embed the footer using an iframe -->
+        <iframe src="components/footer.html" width="100%" height="140px" frameborder="0"></iframe>
+    </body>
+</html>
