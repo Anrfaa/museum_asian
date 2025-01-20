@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rozha+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 
 
 
@@ -13,12 +14,14 @@ h1
     }
 
 
+
+
 body
     {
         margin: 0;
         padding: 0; 
         text-align: left; 
-        background-image: url('../img/about/background_img2.jpeg');
+        background-image: url('../img/background_img2.jpeg');
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
@@ -109,8 +112,7 @@ body
         color:#FFF1C1;
         font-family: "Ribeye", serif;
         font-weight: 400;
-        font-style: normal;
-        
+        font-style: normal;   
     }
 
 .textimg-home
@@ -119,7 +121,7 @@ body
         bottom:30%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: #a28e79;
+        color: #FBFBFB;
         font-size: 20px;
         text-align: center;
         white-space: nowrap;
@@ -330,3 +332,480 @@ img
         margin-top: -2%;
         padding-bottom: 28px;
     }
+
+
+body.gallery-page 
+    {
+        background-color: #FFF1C1;
+    }
+
+.text-gallery1
+    {
+         
+        font-size: 40px;
+        color: #999999;
+        font-family: "Italiana", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: -35%;
+        margin-right: 1190px;
+        
+        
+    }
+.text-gallery2
+    {
+         
+        font-size: 100px;
+        color: #FFF1C1;
+        font-family: "Italiana", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: -7%;
+        margin-right: 950px;  
+    }
+
+.text-clickgal
+    {
+        font-size: 18px;
+        text-align: left;
+        text-justify: left;
+        color:#FBFBFB;
+        margin-top: -18%;
+        margin-left: 750px;
+        padding-bottom: 28px;
+        font-weight: 100;
+        font-family: "Rozha One", serif;
+    }
+
+.image-container 
+    {
+        position: relative;
+    }
+
+.dark-overlay 
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 115.5%;
+        background-color: rgba(0, 0, 0, 0.2);
+        z-index: 5;
+    }
+
+.navbar
+    {
+        position: relative; 
+        z-index: 10;
+    } 
+    
+
+
+
+    
+.manuscripts-img
+    {
+    
+        justify-content: center;
+        margin: 30px auto;
+        width: 200px;
+        height: 30%;
+        gap: 45px;
+        margin-bottom: 30%;
+        margin-left: -160px;
+        display: inline-block;
+        position: relative;
+    }
+
+    
+.southeast-img
+    {
+        justify-content: center;
+        margin: 30px auto;
+        width: 200px;
+        height: 30%;
+        gap: 45px;
+        margin-bottom: 50px;
+        margin-left: -50%;
+        display: inline-block;
+        position: relative;
+    }
+    
+    
+
+.campa-img
+    {
+        border-radius: 10px;
+        display: flex;
+        margin: 30px auto;
+        width: 475px;
+        height: 50%;
+        gap: 45px;
+    }
+
+.artibrahim-img
+    {
+        border-radius: 10px;
+        display: flex;
+        margin: 30px auto;
+        width: 475px;
+        height: 50%;
+        gap: 45px;
+    }
+
+.wayangkulit-img
+    {
+        border-radius: 10px;
+    }
+
+
+.kaabah-img
+    {
+        border-radius: 10px;
+        display: flex;
+        width: 100px;
+        height: 20%;
+    }
+
+.ibanpottery-img
+    {
+        border-radius: 10px;
+        display: flex;
+        margin: 30px auto;
+        width: 475px;
+        height: 50%;
+        gap: 45px;
+    }
+
+.martaban-img
+    {
+        border-radius: 10px;
+        display: flex;
+        margin: 30px auto;
+        width: 475px;
+        height: 50%;
+        gap: 45px;
+    }
+
+.jebakpuyuh-img
+    {
+        border-radius: 10px;
+        display: flex;
+        margin: 30px auto;
+        width: 475px;
+        height: 50%;
+        gap: 45px;
+    }
+
+.gambardalam-manuscripts
+    {
+        border-radius: 10px;
+        display: flex;
+        float: center;
+        margin: 50px auto;
+        margin-left: 570px;
+        width: 200px;
+        height: 40%;
+        gap: 45px;
+    }
+
+.gambardalam-southeast
+    {
+        border-radius: 10px;
+        display: flex;
+        float: center;
+        margin: 50px auto;
+        margin-left: 570px;
+        width: 200px;
+        height: 45%;
+        gap: 45px;
+    }
+
+.gambardalam-campa img
+    {
+        border-radius: 10px;
+        display: flex;
+        float: center;
+        margin: 50px auto;
+        margin-left: 580px;
+        width: 350px;
+        height: 45%;
+    }
+
+.gambardalam-artibrahim img
+    {
+        border-radius: 10px;
+        float: center;
+        margin: 25px auto;
+        margin-left: 530px;
+        width: 30%;
+        height: 45%;
+        gap: 45px;
+    }
+
+.gambardalam-wayangkulit
+    {
+        border-radius: 10px;
+        display: flex;
+        float: center;
+        margin: 50px auto;
+        margin-left: 660px;
+        width: 200px;
+        height: 45%;
+        gap: 45px;
+    }
+
+
+.gambardalam-kaabah
+    {
+        border-radius: 10px;
+        display: flex;
+        float: center;
+        margin: 75px auto;
+        margin-left: 460px;
+        width: 100px;
+        height: 25%;
+        gap: 45px;
+    }
+
+.gambardalam-ibanpottery
+    {
+        border-radius: 10px;
+        display: flex;
+        float: center;
+        margin: 50px auto;
+        margin-left: 570px;
+        width: 200px;
+        height: 45%;
+        gap: 45px;
+    }
+.gambardalam-martaban
+    {
+        border-radius: 10px;
+        display: flex;
+        float: center;
+        margin: 50px auto;
+        margin-left: 570px;
+        width: 200px;
+        height: 45%;
+        gap: 45px;
+    }
+
+.gambardalam-jebakpuyuh
+    {
+        border-radius: 10px;
+        display: flex;
+        float: center;
+        margin: 50px auto;
+        margin-left: 615px;
+        width: 200px;
+        height: 45%;
+        gap: 45px;
+    }
+
+.image-button
+    {
+        cursor: pointer;
+        transition: 1.2s;
+    }
+
+
+.image-button:hover
+    {
+        transform: scale(1.1);
+    }
+
+
+.galleryimg-page3 img
+    {
+        display: center;
+        justify-content: center;
+        padding-left: 520px;
+        width:30%;
+        height:50%;
+        margin-top: 5%;
+
+    }
+
+.titleart-gallery
+    {
+        text-align: center;
+        margin-bottom: 30%;
+        font-family: "Rozha One", serif;
+        font-size: 20px;
+        color: #FFF1C1;
+        padding-top: -8px;
+    }
+
+.ayatart-gallery
+    {
+        text-align: center;
+        margin-top: -29%;
+        font-family: "Rozha One", serif;
+        font-size: 15px;
+        color: #FBFBFB;
+    }
+
+
+.galleryimg-page4 img
+    {
+        display: center;
+        justify-content: center;
+        padding-left: 520px;
+        width:30%;
+        height:50%;
+        margin-top: 5%;
+    }
+
+.southeasttitle-gallery
+    {
+        text-align: center;
+        margin-bottom: 30%;
+        font-family: "Rozha One", serif;
+        font-size: 20px;
+        color: #FFF1C1;
+        padding-top: -8px;
+    }
+.ayatsoutheast-gallery
+    {
+        text-align: center;
+        margin-top: -29%;
+        font-family: "Rozha One", serif;
+        font-size: 15px;
+        color: #FBFBFB; 
+    }
+.manutitle-gallery
+    {
+        text-align: center;
+        margin-bottom: 30%;
+        font-family: "Rozha One", serif;
+        font-size: 20px;
+        color: #FFF1C1;
+        padding-top: -8px;
+    }
+.ayatmanu-gallery
+    {
+        text-align: center;
+        margin-top: -29%;
+        font-family: "Rozha One", serif;
+        font-size: 15px;
+        color: #FBFBFB; 
+    }
+
+.champatitle-gallery
+    {
+        text-align: center;
+        margin-bottom: 30%;
+        font-family: "Rozha One", serif;
+        font-size: 20px;
+        color: #FFF1C1;
+        padding-top: -8px;
+    }
+.ayatchampa-gallery
+    {
+        text-align: center;
+        margin-top: -29%;
+        font-family: "Rozha One", serif;
+        font-size: 15px;
+        color: #FBFBFB; 
+    }
+
+.wayangtitle-gallery
+{
+    text-align: center;
+    margin-bottom: 30%;
+    font-family: "Rozha One", serif;
+    font-size: 20px;
+    color: #FFF1C1;
+    padding-top: -9px;
+}
+
+
+.ayatwayang-gallery
+{
+    text-align: center;
+    margin-top: -29%;
+    font-family: "Rozha One", serif;
+    font-size: 15px;
+    color: #FBFBFB;
+}
+
+.kaabahtitle-gallery
+{
+    text-align: center;
+    margin-bottom: 30%;
+    font-family: "Rozha One", serif;
+    font-size: 20px;
+    color: #FFF1C1;
+    padding-top: -9px;
+}
+
+
+.ayatkaabah-gallery
+{
+    text-align: center;
+    margin-top: -29%;
+    font-family: "Rozha One", serif;
+    font-size: 15px;
+    color: #FBFBFB;
+}
+
+.ibantitle-gallery
+{
+    text-align: center;
+    margin-bottom: 30%;
+    font-family: "Rozha One", serif;
+    font-size: 20px;
+    color: #FFF1C1;
+    padding-top: -9px;
+}
+
+
+.ayatiban-gallery
+{
+    text-align: center;
+    margin-top: -29%;
+    font-family: "Rozha One", serif;
+    font-size: 15px;
+    color: #FBFBFB;
+}
+
+.martabantitle-gallery
+{
+    text-align: center;
+    margin-bottom: 30%;
+    font-family: "Rozha One", serif;
+    font-size: 20px;
+    color: #FFF1C1;
+    padding-top: -9px;
+}
+
+
+.ayatmartaban-gallery
+{
+    text-align: center;
+    margin-top: -29%;
+    font-family: "Rozha One", serif;
+    font-size: 15px;
+    color: #FBFBFB;
+}
+
+.jebaktitle-gallery
+{
+    text-align: center;
+    margin-bottom: 30%;
+    font-family: "Rozha One", serif;
+    font-size: 20px;
+    color: #FFF1C1;
+    padding-top: -9px;
+}
+
+
+.ayatjebak-gallery
+{
+    text-align: center;
+    margin-top: -29.5%;
+    font-family: "Rozha One", serif;
+    font-size: 15px;
+    color: #FBFBFB;
+}
